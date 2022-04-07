@@ -68,4 +68,4 @@ app.get('/', (req,res) => {
 })
 
 // start api
-app.listen(port, () => console.log("Running server on port 11448"));
+app.listen(port, () => console.log(`Running server on port ${port}`));
