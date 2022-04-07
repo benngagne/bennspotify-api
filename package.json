@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
+  "name": "bennspotify-api",
+  "version": "1.0.0",
+  "description": "Pulls currently playing song from spotify api and serves to user at a safe api endpoint.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon -L server.js"
+  },
+  "author": "Benjamin Gagne",
+  "license": "ISC"
+}
